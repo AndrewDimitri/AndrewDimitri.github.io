@@ -1,9 +1,18 @@
-header {
-    font-size: 50px;
-    color: orange;
+body {
+    background-color: orange;
 }
 
-body {
+h1{
+    font-size: 50px;
+    background-color: white;
+    color: orange;
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+p {
     font-size: 20px;
-    color: black;
+    color: white;
+    font-family: "Arial";
+    margin-left: 40px;
 }
