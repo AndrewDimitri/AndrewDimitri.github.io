@@ -1,4 +1,4 @@
 pages/Vinos/media/*
 *.log
 
-!pages/Vinos/media/wine.ico
+!pages/Vinos/media/*.ico
