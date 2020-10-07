@@ -1,0 +1,15 @@
+#coding-tree {
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+    height: 640px;
+}
+
+#coding-tree, h1 {
+    font-size: 60px;
+    margin-bottom: -30px;
+}
+
+#coding-tree, p {
+    font-size: 30px;
+}
