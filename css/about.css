@@ -14,3 +14,25 @@
     color: rgb(255, 255, 255);
     background-color: rgb(50, 50, 50);
 }
+
+tr.myHeader {
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+}
+
+table.myTable {
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid white;
+}
+
+th.myTable, td.myTable {
+    height: 30px;
+    vertical-align: auto;
+    padding: 10px;
+}
+
+th.myTable, td.myTable {
+    border: 1px solid gray;
+}
