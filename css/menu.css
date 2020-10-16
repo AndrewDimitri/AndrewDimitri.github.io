@@ -1,26 +1,67 @@
 body {
     background-color: #222222;
     color: white;
-    margin-top: 10px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
 
-#home-menu ul{
-    font-family: "Book Antiqua";
-    font-size: 20px;
-    list-style: none;
-    text-align: right;
-    color: #693A0C;
+.menu {
+    padding: 0;
 }
 
-#home-menu li {
-    display: inline;
-    padding: 10px;
+.b-home {
+    width: 200px;
+    height: 90px;
+    background: url(https://i.imgur.com/aqyGJmx.png) no-repeat;
+    display: inline-block;
 }
 
-#home-menu a {
-    color: white;
-    text-decoration: none;
+.b-home:hover {
+    background: url(https://i.imgur.com/HHZmURb.png) no-repeat;
+}
+
+.b-proyectos {
+    width: 200px;
+    height: 90px;
+    background: url(https://i.imgur.com/VsqsDwx.png) no-repeat;
+    display: inline-block;
+}
+
+.b-proyectos:hover {
+    background: url(https://i.imgur.com/IR4Ef67.png) no-repeat;
+}
+
+.b-about {
+    width: 200px;
+    height: 90px;
+    background: url(https://i.imgur.com/aYtlrvY.png) no-repeat;
+    display: inline-block;
+}
+
+.b-about:hover {
+    background: url(https://i.imgur.com/Uh7INYF.png) no-repeat;
+}
+
+.b-contacto {
+    width: 200px;
+    height: 90px;
+    background: url(https://i.imgur.com/VBvjUMj.png) no-repeat;
+    display: inline-block;
+}
+
+.b-contacto:hover {
+    background: url(https://i.imgur.com/XS0et4J.png) no-repeat;
+}
+
+.b-codigo {
+    width: 200px;
+    height: 90px;
+    background: url(https://i.imgur.com/fHLcQj7.png) no-repeat;
+    display: inline-block;
+}
+
+.b-codigo:hover {
+    background: url(https://i.imgur.com/pI69JCb.png) no-repeat;
 }
