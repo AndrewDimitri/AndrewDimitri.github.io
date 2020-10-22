@@ -1,17 +1,20 @@
-#about-me {
+div.about-me {
     display: flex;
     /*align-items: center;*/
     flex-direction: row;
     padding: 10px;
 }
 
-#about-me, img {
+img.about-me {
     padding-right: 30px;
 }
 
-#about-me, p {
+p.about-me {
     font-size: 40px;
     color: rgb(255, 255, 255);
+}
+
+.about-me {
     background-color: rgb(50, 50, 50);
 }
 
@@ -35,4 +38,8 @@ th.myTable, td.myTable {
 
 th.myTable, td.myTable {
     border: 1px solid gray;
+}
+
+.key-word {
+    color: cyan;
 }
