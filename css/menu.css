@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: #222222;
     color: white;
@@ -5,64 +9,77 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-    position: fixed;
+    position: absolute;
+    max-width: 100%;
 }
 
 .menu {
     padding: 0;
+    width: 100vw;
+    max-width: 100%;
 }
 
 .b-home {
-    width: 200px;
-    height: 90px;
+    width: 19vw;
+    height: 9vw;
     background: url(https://i.imgur.com/aqyGJmx.png) no-repeat;
+    background-size: 100%;
     display: inline-block;
 }
 
 .b-home:hover {
     background: url(https://i.imgur.com/HHZmURb.png) no-repeat;
+    background-size: 100%;
 }
 
 .b-proyectos {
-    width: 200px;
-    height: 90px;
+    width: 20vw;
+    height: 9vw;
     background: url(https://i.imgur.com/VsqsDwx.png) no-repeat;
+    background-size: 20vw;
     display: inline-block;
 }
 
 .b-proyectos:hover {
     background: url(https://i.imgur.com/IR4Ef67.png) no-repeat;
+    background-size: 20vw;
 }
 
 .b-about {
-    width: 200px;
-    height: 90px;
+    width: 20vw;
+    height: 9vw;
     background: url(https://i.imgur.com/aYtlrvY.png) no-repeat;
+    background-size: 20vw;
     display: inline-block;
 }
 
 .b-about:hover {
     background: url(https://i.imgur.com/Uh7INYF.png) no-repeat;
+    background-size: 20vw;
 }
 
 .b-contacto {
-    width: 200px;
-    height: 90px;
+    width: 20vw;
+    height: 9vw;
     background: url(https://i.imgur.com/VBvjUMj.png) no-repeat;
+    background-size: 20vw;
     display: inline-block;
 }
 
 .b-contacto:hover {
     background: url(https://i.imgur.com/XS0et4J.png) no-repeat;
+    background-size: 20vw;
 }
 
 .b-codigo {
-    width: 200px;
-    height: 90px;
+    width: 17vw;
+    height: 9vw;
     background: url(https://i.imgur.com/fHLcQj7.png) no-repeat;
+    background-size: 100%;
     display: inline-block;
 }
 
 .b-codigo:hover {
     background: url(https://i.imgur.com/pI69JCb.png) no-repeat;
+    background-size: 18vw;
 }

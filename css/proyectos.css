@@ -1,6 +1,6 @@
 div.coding-tree {
     background-color: rgb(50, 50, 50);
-    height: 550;
+    height: 40vw;
 }
 
 h1.coding-tree, p.coding-tree {
@@ -9,12 +9,12 @@ h1.coding-tree, p.coding-tree {
 }
 
 h1.coding-tree {
-    font-size: 60px;
-    margin-bottom: -30px;
+    font-size: 5vw;
+    margin-bottom: -2vw;
 }
 
 p.coding-tree {
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 img.coding-tree {

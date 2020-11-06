@@ -9,8 +9,9 @@ img.about-me {
 }
 
 p.about-me {
-    font-size: 40px;
+    font-size: 3vw;
     color: rgb(255, 255, 255);
+    padding-right: 30px;
 }
 
 .about-me {
@@ -18,14 +19,16 @@ p.about-me {
 }
 
 tr.myHeader {
-    height: 50px;
-    font-size: 30px;
+    height: 6vw;
+    font-size: 5vw;
     background-color: black;
 }
 
 table.myTable {
+    margin-right: auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 99%;
+    margin-bottom: 10px;
     border: 2px solid white;
 }
 
@@ -33,9 +36,6 @@ th.myTable, td.myTable {
     height: 30px;
     vertical-align: auto;
     padding: 10px;
-}
-
-th.myTable, td.myTable {
     border: 1px solid gray;
 }
 
