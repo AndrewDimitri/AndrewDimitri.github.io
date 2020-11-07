@@ -20,6 +20,7 @@ body {
 }
 
 .b-home {
+    transition: 0.5s ease-out;
     width: 19vw;
     height: 9vw;
     background: url(https://i.imgur.com/aqyGJmx.png) no-repeat;
@@ -28,11 +29,13 @@ body {
 }
 
 .b-home:hover {
+    transition: 0.2s ease-in;
     background: url(https://i.imgur.com/HHZmURb.png) no-repeat;
     background-size: 100%;
 }
 
 .b-proyectos {
+    transition: 0.5s ease-out;
     width: 20vw;
     height: 9vw;
     background: url(https://i.imgur.com/VsqsDwx.png) no-repeat;
@@ -41,11 +44,13 @@ body {
 }
 
 .b-proyectos:hover {
+    transition: 0.2s ease-in;
     background: url(https://i.imgur.com/IR4Ef67.png) no-repeat;
     background-size: 20vw;
 }
 
 .b-about {
+    transition: 0.5s ease-out;
     width: 20vw;
     height: 9vw;
     background: url(https://i.imgur.com/aYtlrvY.png) no-repeat;
@@ -54,11 +59,13 @@ body {
 }
 
 .b-about:hover {
+    transition: 0.2s ease-in;
     background: url(https://i.imgur.com/Uh7INYF.png) no-repeat;
     background-size: 20vw;
 }
 
 .b-contacto {
+    transition: 0.5s ease-out;
     width: 20vw;
     height: 9vw;
     background: url(https://i.imgur.com/VBvjUMj.png) no-repeat;
@@ -67,11 +74,13 @@ body {
 }
 
 .b-contacto:hover {
+    transition: 0.2s ease-in;
     background: url(https://i.imgur.com/XS0et4J.png) no-repeat;
     background-size: 20vw;
 }
 
 .b-codigo {
+    transition: 0.5s ease-out;
     width: 17vw;
     height: 9vw;
     background: url(https://i.imgur.com/fHLcQj7.png) no-repeat;
@@ -80,6 +89,7 @@ body {
 }
 
 .b-codigo:hover {
+    transition: 0.2s ease-in;   
     background: url(https://i.imgur.com/pI69JCb.png) no-repeat;
     background-size: 18vw;
 }

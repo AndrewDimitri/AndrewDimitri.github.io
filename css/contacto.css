@@ -7,9 +7,15 @@
 }
 
 a.email {
-    color: cyan;
+    transition: 0.5s ease-out;
+    color: blue;
 }
 
 a.email:hover {
-    color: magenta;
+    transition: 0.2s ease-in-out;
+    color: cyan;
+}
+
+body {
+    background: -webkit-linear-gradient(270deg, black 50%, gray);
 }
