@@ -42,3 +42,19 @@ th.myTable, td.myTable {
 .key-word {
     color: cyan;
 }
+
+a.music {
+    color: cyan;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+a.music:hover {
+    color: pink;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+}

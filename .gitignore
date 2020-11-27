@@ -2,3 +2,4 @@ media/*
 *.log
 
 !media/*.ico
+!media/*.mp3
