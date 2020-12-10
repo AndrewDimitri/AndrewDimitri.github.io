@@ -23,7 +23,7 @@ a.email:hover {
 
 .areaForm {
     background-color: black;
-    height: 400px;
+    height: 370px;
     transition: 0.5s;
 }
 
@@ -50,7 +50,7 @@ p.myForm {
 
 .requerido {
     color: red;
-    font-size: 1.2vw;
+    font-size: 15px;
 }
 
 #paraMensaje {
@@ -59,20 +59,20 @@ p.myForm {
 }
 
 #mensaje {
-    width: 40vw;
+    width: 50vw;
     height: 150px;
-    font-size: 1.5vw;
+    font-size: 15px;
 }
 
 input.myForm {
     position: relative;
     margin-bottom: 10px;
     width: 30vw;
-    font-size: 1.5vw;
+    font-size: 15px;
 }
 
 label.myForm {
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 #form-btn {
@@ -80,10 +80,44 @@ label.myForm {
     color: white;
     background-color: blue;
     transition: 0.5s;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 #form-btn:hover {
     background-color: purple;
     transition: 0.3s;
+}
+
+@media only screen and (max-width:620px){
+    /*For mobile phones*/
+
+    .areaForm {
+        background-color: black;
+        height: 550px;
+        transition: 0.5s;
+    }
+    
+    form.myForm {
+        display: inline;
+        float: left;
+    }
+    
+    #paraMensaje {
+        position: relative;
+        margin-left: 0;
+    }
+    
+    #mensaje {
+        width: 90vw;
+        height: 150px;
+        font-size: 20PX;
+    }
+    
+    input.myForm {
+        position: relative;
+        margin-bottom: 10px;
+        width: 90vw;
+        font-size: 20PX;
+    }
+    
 }
