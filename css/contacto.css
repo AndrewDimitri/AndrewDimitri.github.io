@@ -1,9 +1,14 @@
+body {
+    /*background: -webkit-linear-gradient(270deg, black 50%, gray);*/
+    background-color: #222222;
+}
+
 .emailDiv {
-    position: absolute;
+    position: relative;
     display: inline-flex;
     top: 10vwpx;
-    left: 10vw;
-    font-size: 5vw;
+    left: 5vw;
+    font-size: 3vw;
 }
 
 a.email {
@@ -16,6 +21,69 @@ a.email:hover {
     color: cyan;
 }
 
-body {
-    background: -webkit-linear-gradient(270deg, black 50%, gray);
+.areaForm {
+    background-color: black;
+    height: 400px;
+    transition: 0.5s;
+}
+
+div.areaForm:hover {
+    background-color: rgb(0, 0, 50);
+    transition: 0.3s;
+}
+
+div.myForm {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 5vw;
+}
+
+form.myForm {
+    display: flex;
+    float: left;
+}
+
+p.myForm {
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.requerido {
+    color: red;
+    font-size: 1.2vw;
+}
+
+#paraMensaje {
+    position: relative;
+    margin-left: 10%;
+}
+
+#mensaje {
+    width: 40vw;
+    height: 150px;
+    font-size: 1.5vw;
+}
+
+input.myForm {
+    position: relative;
+    margin-bottom: 10px;
+    width: 30vw;
+    font-size: 1.5vw;
+}
+
+label.myForm {
+    font-size: 2vw;
+}
+
+#form-btn {
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    transition: 0.5s;
+    font-size: 1.5vw;
+}
+
+#form-btn:hover {
+    background-color: purple;
+    transition: 0.3s;
 }
