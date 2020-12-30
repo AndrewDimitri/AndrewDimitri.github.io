@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;    /* Para que las transiciones a las secciones al
+                                usar los botones sea smooth.*/
+}
+
+body {
+    background-color: #04294B;
+    color: white;
+    font-family: 'Calibri';
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    /*No tocar. Los valores funcionan bien así. Fue difícil llegar a ellos.*/
+    width: 32.4%;
+    height: 6vw;
+    display: inline-flex;
+    padding-right: 0.4%;
+}
+
+/* B O T O N E S */
+
+#b-inicio {
+    background-image: url("../media/buttonInicio.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#b-inicio:hover {
+    background-image: url("../media/buttonInicioSelected.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: 0.2s;
+}
+
+#b-temas {
+    background-image: url("../media/buttonTemas.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#b-temas:hover {
+    background-image: url("../media/buttonTemasSelected.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: 0.2s;
+}
+
+#b-contacto {
+    background-image: url("../media/buttonContacto.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#b-contacto:hover {
+    background-image: url("../media/buttonContactoSelected.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: 0.2s;
+}
+
+/* R E S P O N S I V I T Y */
+
+/*For MOBILE devices*/
+@media only screen and (max-width: 600px){
+    td{
+        display: flex;
+        width: 100%;
+        height: 17vw;
+    }
+}
