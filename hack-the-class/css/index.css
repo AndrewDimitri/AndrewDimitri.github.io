@@ -71,6 +71,45 @@ td {
     transition: 0.2s;
 }
 
+/* Hack The Class */
+#section-inicio{
+    transition: 1s;
+    transition-delay: 0.4s;
+    margin: auto;
+    width: 99%;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.hack-the-class-title {
+    transition: 1s;
+    transition-delay: 0s;
+    color: #FF2929;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 10vw;
+}
+
+.asesorias-title {
+    transition: 1s;
+    transition-delay: 0.2s;
+    color: #FFF74D;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 8vw;
+}
+
+.title-description{
+    font-family: "Calibri";
+    font-size: 4vw;
+}
+
 /* R E S P O N S I V I T Y */
 
 /*For MOBILE devices*/
@@ -79,5 +118,17 @@ td {
         display: flex;
         width: 100%;
         height: 17vw;
+    }
+
+    .hack-the-class-title {
+        font-size: 15vw;
+    }
+
+    .asesorias-title {
+        font-size: 12vw;
+    }
+
+    .title-description{
+        font-size: 6vw;
     }
 }
