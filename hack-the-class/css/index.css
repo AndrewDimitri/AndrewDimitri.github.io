@@ -72,9 +72,9 @@ td {
 }
 
 /* Hack The Class */
+
 #section-inicio{
     transition: 1s;
-    transition-delay: 0.4s;
     margin: auto;
     width: 99%;
     text-align: center;
@@ -83,7 +83,6 @@ td {
 
 .hack-the-class-title {
     transition: 1s;
-    transition-delay: 0s;
     color: #FF2929;
     text-align: center;
     margin: auto;
@@ -93,16 +92,27 @@ td {
     font-size: 10vw;
 }
 
+.asesorias {
+    display: flex;
+    vertical-align: middle;
+    width: 50%;
+    margin-left: 19%;
+}
+
 .asesorias-title {
     transition: 1s;
-    transition-delay: 0.2s;
     color: #FFF74D;
     text-align: center;
-    margin: auto;
     width: 50%;
     font-weight: bold;
     font-family: "Times New Roman";
     font-size: 8vw;
+    margin: auto;
+}
+
+img.asesorias-title {
+    width: 22%;
+    margin-right: -2vw;
 }
 
 .title-description{
@@ -131,4 +141,13 @@ td {
     .title-description{
         font-size: 6vw;
     }
+
+    .asesorias {
+        margin-left: 10%;
+    }
+
+    img.asesorias-title {
+        width: 33%;
+    }
+    
 }
