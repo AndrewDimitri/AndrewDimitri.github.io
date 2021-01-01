@@ -1,5 +1,8 @@
 media/*
 *.log
 
+hack-the-class/media/*.jpg
+hack-the-class/media/*.png
+
 !media/*.ico
 !media/*.mp3

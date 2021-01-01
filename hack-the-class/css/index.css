@@ -24,7 +24,7 @@ td {
 /* B O T O N E S */
 
 #b-inicio {
-    background-image: url("../media/buttonInicio.fw.png");
+    background-image: url(https://i.imgur.com/z1zL6He.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -32,7 +32,7 @@ td {
 }
 
 #b-inicio:hover {
-    background-image: url("../media/buttonInicioSelected.fw.png");
+    background-image: url(https://i.imgur.com/KmdGaAR.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -40,7 +40,7 @@ td {
 }
 
 #b-temas {
-    background-image: url("../media/buttonTemas.fw.png");
+    background-image: url(https://i.imgur.com/hMaOXE1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -48,7 +48,7 @@ td {
 }
 
 #b-temas:hover {
-    background-image: url("../media/buttonTemasSelected.fw.png");
+    background-image: url(https://i.imgur.com/U3VPB1i.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -56,7 +56,7 @@ td {
 }
 
 #b-contacto {
-    background-image: url("../media/buttonContacto.fw.png");
+    background-image: url(https://i.imgur.com/9eLs53S.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -64,7 +64,7 @@ td {
 }
 
 #b-contacto:hover {
-    background-image: url("../media/buttonContactoSelected.fw.png");
+    background-image: url(https://i.imgur.com/wcTzs08.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -120,6 +120,27 @@ img.asesorias-title {
     font-size: 4vw;
 }
 
+/* Temas */
+
+#section-temas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+img.infografias {
+    width: 100%;
+}
+
+picture.infografias {
+    margin: 0px;
+    padding: 0px;
+    width: 48%;
+    margin-left: 1.3vw;
+    margin-bottom: 1.3vw;
+}
+
 /* R E S P O N S I V I T Y */
 
 /*For MOBILE devices*/
@@ -146,8 +167,17 @@ img.asesorias-title {
         margin-left: 10%;
     }
 
-    img.asesorias-title {
+    picture.infografias {
         width: 33%;
     }
     
+}
+
+/*For not so wide screens*/
+@media only screen and (max-width: 1080px){
+    picture.infografias {
+        width: 94%;
+        margin-left: 3vw;
+        margin-bottom: 3vw;
+    }
 }
