@@ -39,22 +39,22 @@
         <div id="section-temas">
             <!--Electrónica-->
             <picture class="infografias">
-                <source media="(max-width:600px)" srcset="https://i.imgur.com/6vzvXV7.jpg">
-                <source media="(max-width:1080px)" srcset="https://i.imgur.com/HdJi1MS.jpg">
+                <source media="(max-width:620px)" srcset="https://i.imgur.com/6vzvXV7.jpg">
+                <source media="(max-width:900px)" srcset="https://i.imgur.com/HdJi1MS.jpg">
                 <source media="(max-width:1299px)" srcset="https://i.imgur.com/6vzvXV7.jpg">
                 <img class="infografias" src="https://i.imgur.com/HdJi1MS.jpg" alt="Inforgrafía electrónica">
             </picture>
             <!--Matemáticas-->
             <picture class="infografias">
-                <source media="(max-width:600px)" srcset="https://i.imgur.com/EL54W4w.jpg">
-                <source media="(max-width:1080px)" srcset="https://i.imgur.com/V0JZMr2.jpg">
+                <source media="(max-width:620px)" srcset="https://i.imgur.com/EL54W4w.jpg">
+                <source media="(max-width:900px)" srcset="https://i.imgur.com/V0JZMr2.jpg">
                 <source media="(max-width:1299px)" srcset="https://i.imgur.com/EL54W4w.jpg">
                 <img class="infografias" src="https://i.imgur.com/V0JZMr2.jpg" alt="Inforgrafía matemáticas">
             </picture>
             <!--Programación-->
             <picture class="infografias">
-                <source media="(max-width:600px)" srcset="https://i.imgur.com/xqyJzQX.jpg">
-                <source media="(max-width:1080px)" srcset="https://i.imgur.com/HgWdUlK.jpg">
+                <source media="(max-width:620px)" srcset="https://i.imgur.com/xqyJzQX.jpg">
+                <source media="(max-width:900px)" srcset="https://i.imgur.com/HgWdUlK.jpg">
                 <source media="(max-width:1299px)" srcset="https://i.imgur.com/xqyJzQX.jpg">
                 <img class="infografias" src="https://i.imgur.com/HgWdUlK.jpg" alt="infografía programación">
             </picture>
@@ -62,8 +62,34 @@
 
         <!--Formulario de contacto-->
         <div id="section-contacto">
-            Contacto
+            <p class="contacto">¡Programa una asesoría!</p>
+            <!-- F O R M U L A R I O -->
+            <div class="areaForm">
+                <div class="myForm">
+                    <form class="myForm" action="" method="POST">
+                        <div class="formContainer">
+                            <div>
+                                <label class="myForm" for="nombre">Nombre <span class="requerido">(requerido)</span></label><br>
+                                <input class="myForm" type="text" id="nombre" name="nombre"><br>
+                                <label class="myForm" for="mail">Email <span class="requerido">(requerido)</span></label><br>
+                                <input class="myForm" type="text" id="mail" name="mail"><br>
+                                <label class="myForm" for="asunto">Tema <span class="requerido">(requerido)</span></label><br>
+                                <input class="myForm" type="text" id="asunto" name="asunto">
+                            </div>
+            
+                            <div id="paraMensaje">
+                                <label class="myForm" for="mensaje">Mensaje <span class="opcional">(opcional)</span></label><br>
+                                <textarea class="myForm" type="textarea" id="mensaje"></textarea>
+                            </div>
+                        </div>
+                        <input id="form-btn" type="submit" value="¡Quiero mi asesoría!">
+                    </form>
+                </div>
+            </div>
         </div>
+
+        <br>
+        <br>
         
     </body>
 </html>

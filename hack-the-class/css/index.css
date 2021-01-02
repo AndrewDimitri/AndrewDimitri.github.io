@@ -141,10 +141,90 @@ picture.infografias {
     margin-bottom: 1.3vw;
 }
 
+/* Contacto */
+
+#section-contacto {
+    margin: auto;
+    width: 99%;
+}
+
+p.contacto {
+    text-align: center;
+    transition: 1s;
+    font-family: "Calibri";
+    font-size: 8vw;
+    color: #8cfffb;
+}
+
+/* F O R M U L A R I O */
+
+div.myForm {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 3vw;
+}
+
+div.formContainer {
+    display: flex;
+    float: left;
+}
+
+.requerido {
+    color: #FF2929;
+    font-size: 1.5vw;
+}
+
+.opcional {
+    color: #8cfffb;
+    font-size: 1.5vw;
+}
+
+#paraMensaje {
+    position: relative;
+    margin-left: 5%;
+}
+
+#mensaje {
+    width: 50vw;
+    height: 17.6vw;
+    font-size: 2vw;
+}
+
+input.myForm {
+    position: relative;
+    margin-bottom: 1vw;
+    width: 37vw;
+    font-size: 2vw;
+}
+
+label.myForm {
+    font-size: 3vw;
+}
+
+#form-btn {
+    margin-top: 1vw;
+    color: white;
+    background-color: #021526;
+    transition: 0.5s;
+    font-size: 4vw;
+    font-family: "Calibri";
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 2vw;
+}
+
+#form-btn:hover {
+    background-color: #8cfffb;
+    color: black;
+    transition: 0.3s;
+}
+
 /* R E S P O N S I V I T Y */
 
 /*For MOBILE devices*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 620px){
     td{
         display: flex;
         width: 100%;
@@ -168,16 +248,105 @@ picture.infografias {
     }
 
     picture.infografias {
-        width: 33%;
+        width: 94%;
+        margin-left: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    p.contacto {
+        font-size: 13vw;
+    }
+
+    /* Formulario */
+    
+    div.formContainer {
+        display: inline;
+        float: left;
+    }
+
+    #paraMensaje {
+        position: relative;
+        margin-left: 0;
+    }
+
+    .requerido {
+        font-size: 3vw;
+    }
+    
+    .opcional {
+        font-size: 3vw;
+    }
+    
+    #mensaje {
+        width: 90vw;
+        height: 30vw;
+        font-size: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    input.myForm {
+        width: 90vw;
+        font-size: 4vw;
+    }
+    
+    label.myForm {
+        font-size: 5vw;
+    }
+    
+    #form-btn {
+        font-size: 8vw;
+        width: 94%;
+        border-radius: 3vw;
     }
     
 }
 
 /*For not so wide screens*/
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 900px) and (min-width: 621px){
     picture.infografias {
         width: 94%;
         margin-left: 3vw;
         margin-bottom: 3vw;
+    }
+
+    /* F O R M U L A R I O*/
+        
+    div.formContainer {
+        display: inline;
+        float: left;
+    }
+
+    .requerido {
+        font-size: 2.25vw;
+    }
+    
+    .opcional {
+        font-size: 2.25vw;
+    }
+    
+    #paraMensaje {
+        position: relative;
+        margin-left: 0;
+    }
+
+    #mensaje {
+        width: 90vw;
+        height: 25vw;
+        font-size: 3vw;
+        margin-bottom: 4vw;
+    }
+    
+    input.myForm {
+        width: 90vw;
+        font-size: 3vw;
+    }
+    
+    label.myForm {
+        font-size: 4.5vw;
+    }
+
+    #form-btn {
+        font-size: 6vw;
+        border-radius: 3vw;
     }
 }
