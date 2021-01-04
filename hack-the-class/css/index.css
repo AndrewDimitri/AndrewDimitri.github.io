@@ -221,6 +221,38 @@ label.myForm {
     transition: 0.3s;
 }
 
+/* Footer */
+
+footer {
+    margin: auto;
+    width: 120%;
+    margin-left: -10%;
+    text-align: center;
+    vertical-align: middle;
+    background-color:  #021526;
+}
+
+img.facebook {
+    width: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.facebook {
+    transition: 0.5s;
+    color: #blue;
+    margin-top: 7.5px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.facebook:hover {
+    transition: 0.3s;
+    color: #8cfffb;
+}
+
 /* R E S P O N S I V I T Y */
 
 /*For MOBILE devices*/
@@ -298,6 +330,17 @@ label.myForm {
         width: 94%;
         border-radius: 3vw;
     }
+
+    /* Footer */
+    img.facebook {
+        width: 40px;
+    }
+    
+    a.facebook {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
     
 }
 
@@ -348,5 +391,16 @@ label.myForm {
     #form-btn {
         font-size: 6vw;
         border-radius: 3vw;
+    }
+
+    /* Footer */
+    img.facebook {
+        width: 40px;
+    }
+    
+    a.facebook {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 20px;
     }
 }
